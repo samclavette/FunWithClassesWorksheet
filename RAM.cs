@@ -8,5 +8,13 @@ namespace FunWithClasses
 {
     class RAM
     {
+        public string brand;
+        public double totalGigabytes;
+
+        public RAM(string brand, double totalGigabytes)
+        {
+            this.brand = brand;
+            this.totalGigabytes = totalGigabytes;
+        }
     }
 }
