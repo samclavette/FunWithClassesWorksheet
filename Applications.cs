@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FunWithClasses
 {
-    class Applications
+    abstract class Applications
     {
         public string applicationName;
         public string applicationType;
